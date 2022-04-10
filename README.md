@@ -1,2 +1,2 @@
 # odin-recipes
-The results of my efforts going through the Odin Project courses.
+The first project going through the Odin Project courses. It's a simple Cooking website with a few recipes.
