@@ -5,12 +5,12 @@
     <title>Butter Chicken Massala</title>
     <meta charset="utf-8">
   </head>
-
+  
   <body>
-    <!--This agregates title, footer, quick-description, recipe image and long-description-->
+    <!--Title, subtitle, recipe image, and recipe description live -->
     <div class="verticalhorizontal">
     <h1>BUTTER CHICKEN</h1>
-    <p>
+        <p>
       <img id="underline" src="../resources/header-ornament.png"
       width="50%"
       height="auto" ></p>
@@ -25,32 +25,45 @@
       <em>A simple yet delicious dish straight from India: a mild curry with tomato-onion-cream based sauce and boneless chicken pieces carefully cooked. Except it is not realsly from India because I butchered the recipe, but I promise it's tasty.</em></p>
     </div>
     
-    <!-- The "Ingredients" section lives here-->
+    <!-- The "Ingredients" section lives here; Remember to review the <dd>-->
     <div align="justify">
     <h2>Ingredients</h2>
       <h3>Seasoning</h3>
-        <ul>
-          <li>Paprika, 1 tbsp</li>
-          <li>Salt, 1/2 a tbsp</li>
-          <li>Black pepper, infinite²/servings</li>
-          <li>Curry, 2 tbsp</li>
-          <li>Saffron, 1/2 tbsp</li>
-          <li>Cumin, same as black pepper, but a little less</li>
-          <li>Nutmeg, a tiny bit</li>
-        </ul>
+        <label><input type="checkbox">  Paprika, 1 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Salt, 1/2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Black-Pepper, free for all</label>
+        <p></p>
+        <label><input type="checkbox">  Curry, 2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Saffron, 1/2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Cumin, same as Black-Pepper</label>
+        <p></p>
+        <label><input type="checkbox">  Nutmeg, a tiny bit</label>
+
       <h3>Actual Chicken</h3>
-        <ul>
-        <li>Boneless Chicken, 500 g, cubed</li>
-        <li>Butter, 2 tbsp</li>
-        <li>Onions, 2 medium-sized, minced</li>
-        <li>Ginger, a big toe, minced</li>
-        <li>Garlic Gloves, 3, minced</li>
-        <li>Tomato Extract, 2 tbsp</li>
-        <li>Heavy Cream (33%), 200 ml</li>
-        <li>Oil, 2 tbsp</li>
-        <li>Lemon Juice, 1 lemon</li>
-        <li>Coriander/Cilantro, a tiny bunch for aesthetics</li>
-        </ul>
+        <label><input type="checkbox">  Boneless Chicken, 500 g, cubed</label>
+        <p></p>
+        <label><input type="checkbox">  Butter, 2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Onions, 2 medium-sized, minced</label>
+        <p></p>
+        <label><input type="checkbox">  Ginger, a big toe, minced</label>
+        <p></p>
+        <label><input type="checkbox">  Garlic Gloves, 3, minced</label>
+        <p></p>
+        <label><input type="checkbox">  Tomato Puree, 2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Heavy Cream (33%), 200 ml</label>
+        <p></p>
+        <label><input type="checkbox">  Oil, 2 tbsp</label>
+        <p></p>
+        <label><input type="checkbox">  Lemon Juice, 1 lemon</label>
+        <p></p>
+        <label><input type="checkbox">  Coriander/Cilantro, a tiny bunch for aesthetics</label>
+        <p></p>
     </div>
 
     <!-- Actual recipe lives here-->
@@ -70,13 +83,19 @@
     <div align="justify">
     <h2>Post Script</h2>
       <p>Now, <strong>very important</strong> side note: if it is too thick, put milk, if it is too liquid, put tomato puree and/or cream. Use the rest of the powder to balance things a bit too. And if you ahve any of it left, don't store it under the sun/light, hide it where it's dark.</p>
-      <p><a href="#top">Click here to go to the top of the page.</a></p><p><a href="../index.html">Click here to go back to the main page.</a></p>
+      <p><a href="#top">🔝</a></p><p><a href="../index.html">🏠</a></p>
     </div>
-  </body>
+
+    </body>
+    
 </html>
 
 <!--CSS goes here-->
 <style>
+  li {
+  margin: 10px 0;
+  }
+
   .verticalhorizontal {
       display: table-cell;
       height: auto;
@@ -85,3 +104,16 @@
       vertical-align: middle;
   }
 </style>
+
+<!--Js goes here; I'm not sure what I'm gonna do with this function, but it is a neat check-->
+<script type="text/javascript">  
+  function ValidateSelection() {  
+      var cb = document.getElementsByName("veggies");  
+      var CheckedItems = 0; 
+      for(var i = 0; i < cb.length; i++) {  
+          if(cb[i].checked) {
+            CheckedItems++;
+          }
+      }  
+  }
+</script>
