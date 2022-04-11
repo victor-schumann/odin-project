@@ -1,0 +1,17 @@
+body {}
+
+.navbar {}
+
+.content {
+  min-width: 50vm;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content div {
+  width: 50vw;
+  margin: 30px;
+}
