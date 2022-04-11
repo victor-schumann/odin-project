@@ -15,3 +15,15 @@ body {}
   width: 50vw;
   margin: 30px;
 }
+
+ul {
+  list-style-type: none;
+}
+  
+.verticalhorizontal {
+  display: table-cell;
+  height: auto;
+  text-align: center;
+  width: auto;
+  vertical-align: middle;
+}
