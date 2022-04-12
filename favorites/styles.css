@@ -73,3 +73,7 @@ header {
 ul {
   list-style-type: none;
 }
+
+br {
+  margin-bottom: 20px;
+}
