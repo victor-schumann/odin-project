@@ -11,53 +11,46 @@
 
   <body>
     <div class="content">
+<!-- Rounded dialog -->
+      <section>
+        <br>
+        <button type="button" class="nes-btn is-normal" onclick="document.getElementById('dialog-rounded').showModal();" style="font-size: 120%;" >
+          <span>Retro Recipes<br><i class="snes-logo"></i></a><br>
+        </button>
+        <dialog class="nes-dialog is-rounded" id="dialog-rounded">
+          <form method="dialog">
+            <p class="title">This repo was built with the help and guidance of the following projects. </p>
+            <menu class="dialog-menu">
+              <a class="nes-btn" href="https://nostalgic-css.github.io/NES.css/">NES.css</a>
+              <a class="nes-btn" href=https://www.theodinproject.com/>Odin Project</a>
+              <button class="nes-btn">Cancel</button>
 
-      <div id="nescss">
-        <header>
-            <span>Retro Recipes<br><i class="snes-logo"></i></span>
-        </header>
-      </div>
+              
+            </menu>
+          </form>
+        </dialog>
+      </section>
 
-      <!-- Rounded dialog -->
-    <section>
-      <button type="button" class="nes-btn is-normal" onclick="document.getElementById('dialog-rounded').showModal();" style="font-size: 120%;" >
-        ODIN PROJECT #1
-      </button>
-      <dialog class="nes-dialog is-rounded" id="dialog-rounded">
-        <form method="dialog">
-          <p class="title">This repo was built with the help and guidance of the following projects. </p>
-          <menu class="dialog-menu">
-            <a class="nes-btn" href="https://nostalgic-css.github.io/NES.css/">NES.css</a>
-            <a class="nes-btn" href=https://www.theodinproject.com/>Odin Project</a>
-            <button class="nes-btn">Cancel</button>
-
-            
-          </menu>
-        </form>
-      </dialog>
-    </section>
-
-
+<!--lil pizza-->
       <div class="verticalhorizontal">        
-        <p>
           <img id="underline" src="https://imgs.search.brave.com/xjU3fpHC6jyNPcybUbF4wMBHf2xgn7CD5f_WrB0FxvQ/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BpeGVs/YXJ0bWFrZXIuY29t/L2FydC8wYTA3NmIz/YjExMWY2MTgucG5n"
           width="35%"
           height="auto"
           border-radius: 50%;
           border-style: solid;
-          border-color: black;"></p>
+          border-color: black;">
       </div>
 
-      <!--Hello, World-->
+<!--Hello, World-->
       <div class="nes-container with-title is-centered">
         <h2 class="title">Hello, world!</h2>
         <p>This is a tiny index of my favorite recipes!</p>
       </div>
 
-      <!--Favorites-->
+<!--Favorites-->
       <div class="nes-container with-title is-centered">
         <h2 class="title">Favorites</h2>
-        <a class="nes-btn" href="favorites/chicken.html">Butter Chicken</a>
+        <a class="nes-btn" href="favorites/butter-chicken.html">Butter Chicken</a>
         <p></p>
 
         <a class="nes-btn is-disabled">World Domination</a>
@@ -66,7 +59,7 @@
         <a class="nes-btn" href="favorites/pasta.html">Homemade Spaghetti</a>
       </div>    
       
-      <!--Author-->
+<!--Author-->
       <section class="nes-container member-card">
         <div class="avatar">
           <img class="nes-avatar is-rounded is-large" alt="Gravatar image example" src="https://secure.gravatar.com/avatar/9d7296a59054d73981f8684ef636537b" style="image-rendering: pixelated; width: auto; height: 100%;
