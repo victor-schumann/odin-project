@@ -11,19 +11,41 @@
 
   <body>
     <div class="content">
+
       <div id="nescss">
         <header>
             <span>Retro Recipes<br><i class="snes-logo"></i></span>
         </header>
       </div>
-      
-      <div class="verticalhorizontal">
-        <h2>ODIN PROJECT #1</h2>
-        <p>
 
+      <!-- Rounded dialog -->
+    <section>
+      <button type="button" class="nes-btn is-normal" onclick="document.getElementById('dialog-rounded').showModal();" style="font-size: 120%;" >
+        ODIN PROJECT #1
+      </button>
+      <dialog class="nes-dialog is-rounded" id="dialog-rounded">
+        <form method="dialog">
+          <p class="title">This repo was built with the help and guidance of the following projects. </p>
+          <menu class="dialog-menu">
+            <a class="nes-btn" href="https://nostalgic-css.github.io/NES.css/">NES.css</a>
+            <a class="nes-btn" href=https://www.theodinproject.com/>Odin Project</a>
+            <button class="nes-btn">Cancel</button>
+
+            
+          </menu>
+        </form>
+      </dialog>
+    </section>
+
+
+      <div class="verticalhorizontal">        
+        <p>
           <img id="underline" src="https://imgs.search.brave.com/xjU3fpHC6jyNPcybUbF4wMBHf2xgn7CD5f_WrB0FxvQ/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BpeGVs/YXJ0bWFrZXIuY29t/L2FydC8wYTA3NmIz/YjExMWY2MTgucG5n"
           width="35%"
-          height="auto" ></p>
+          height="auto"
+          border-radius: 50%;
+          border-style: solid;
+          border-color: black;"></p>
       </div>
 
       <!--Hello, World-->
