@@ -37,7 +37,7 @@
 
 .nes-container.member-card {
   display: flex;
-  padding: 1rem 1.5rem;
+  padding: 0 1.5rem;
   width: 470px;
   margin-bottom: 2rem;
 }
