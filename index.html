@@ -2,8 +2,10 @@
 <html lang="en">
 
   <head>
-    <title>Retro Recipes</title>
-    <meta http-eqiv="content-type" content="text/html; charset=UTF-8; width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>👾 Retro Recipes</title>
+    <meta http-eqiv="content-type" content="text/html"
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
@@ -17,15 +19,16 @@
         <button type="button" class="nes-btn is-normal" onclick="document.getElementById('dialog-rounded').showModal();" style="font-size: 120%;" >
           <span>Retro Recipes<br><i class="snes-logo"></i></a><br>
         </button>
+
         <dialog class="nes-dialog is-rounded" id="dialog-rounded">
           <form method="dialog">
             <p class="title">This repo was built with the help and guidance of the following projects. </p>
-            <menu class="dialog-menu">
-              <a class="nes-btn" href="https://nostalgic-css.github.io/NES.css/">NES.css</a>
-              <a class="nes-btn" href=https://www.theodinproject.com/>Odin Project</a>
-              <button class="nes-btn">Cancel</button>
 
-              
+<!--Actual buttons go here-->
+            <menu class="dialog-menu" style="text-align: center;">
+              <p><a class="nes-btn is-primary" href="https://nostalgic-css.github.io/NES.css/">NES.css</a></p>
+              <p><a class="nes-btn is-primary" href=https://www.theodinproject.com/>Odin Project</a></p>
+              <button class="nes-btn is-error">Go back</button>
             </menu>
           </form>
         </dialog>
@@ -53,10 +56,26 @@
         <a class="nes-btn" href="favorites/butter-chicken.html">Butter Chicken</a>
         <p></p>
 
-        <a class="nes-btn is-disabled">World Domination</a>
+        <a class="nes-btn" href="favorites/pasta.html">Homemade Spaghetti</a>
         <p></p>
 
-        <a class="nes-btn" href="favorites/pasta.html">Homemade Spaghetti</a>
+<!-- Dark and Rounded dialog -->
+        <section>
+          <button type="button" class="nes-btn is-disabled" onclick="document.getElementById('dialog-dark-rounded').showModal();">
+            World Domination
+          </button>
+          
+          <dialog class="nes-dialog is-dark is-rounded" id="dialog-dark-rounded">
+            <form method="dialog">
+              <p class="title">Error!</p>
+              <p>It seems like you tried to learn how to dominate the world. Unfortunately, I can only share this information if you hire me as a <strong>full time developer</strong>. Luckly for you, I'm open for it!</p>
+              <menu class="dialog-menu">
+                <button class="nes-btn">Go back</button>
+                <a class="nes-btn" href="favorites/plan.html">Hire me!</a>
+              </menu>
+            </form>
+          </dialog>
+        </section>        
       </div>    
       
 <!--Author-->
@@ -85,7 +104,6 @@
             <p></p>
           </div>
         </div>
-        ::after
       </section>
     </div>
   </body>
