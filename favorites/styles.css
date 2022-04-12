@@ -77,3 +77,8 @@ ul {
 br {
   margin-bottom: 20px;
 }
+
+.is-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
