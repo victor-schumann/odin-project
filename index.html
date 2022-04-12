@@ -2,43 +2,62 @@
 <html lang="en">
 
   <head>
-    <title>Recipe Index</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Odin Retro Recipes</title>
+    <meta http-eqiv="content-type" content="text/html; charset=UTF-8; width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
   </head>
 
   <body>
+    <div class="content">
+      <div id="nescss">
+        <header>
+            <span>Retro Recipes<br><i class="snes-logo"></i></span>
+        </header>
+      </div>
+      
+      <div class="verticalhorizontal">
+        <h2>ODIN PROJECT #1</h2>
+        <p>
 
-    <div class="verticalhorizontal">
-      <h1>ODIN PROJECT RECIPES</h1>
-      <p>
-        <img id="underline" src="resources/header-ornament.png"
-        width="50%"
-        height="auto" ></p>
+          <img id="underline" src="https://imgs.search.brave.com/xjU3fpHC6jyNPcybUbF4wMBHf2xgn7CD5f_WrB0FxvQ/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BpeGVs/YXJ0bWFrZXIuY29t/L2FydC8wYTA3NmIz/YjExMWY2MTgucG5n"
+          width="35%"
+          height="auto" ></p>
+      </div>
+
+      <div class="nes-container with-title is-centered">
+        <h2 class="title">Hello, world!</h2>
+        <p>This is a tiny index of my favorite recipes!</p>
+      </div>
+
+      <div class="nes-container with-title is-centered">
+        <h2 class="title">Favorites</h2>
+        <a class="nes-btn" href="favorites/chicken.html">Butter Chicken</a>
+        <p></p>
+        <a class="nes-btn" href="plan.html">Modern Society's Destruction</a>
+        <p></p>
+        <a class="nes-btn" href="favorites/pizza.html">Homemade Pizza</a>
+      </div>    
+      
+      <section class="nes-container is-dark member-card">
+        <div class="avatar">
+          <img data-src="https://github.com/victor-schumann.png?size=80" alt="victor-schumann" class src="https://github.com/victor-schumann.png?size=80" style="border-radius: 50%;">
+        </div>
+      
+        <div class="profile">
+          <h4 class="name">Victor Schumann</h4>
+          <p>Student & Developer</p>
+          
+          <div>
+            <a href="https://github.com/victor-schumann" target="_blanc" rel=""noopener" aria-label="github">
+              <i class="nes-icon github"></i></a>
+            <a href="https://www.linkedin.com/in/victor-schumann" target="_blanc" rel=""noopener" aria-label="github"><i class="nes-icon linkedin"></i></a>
+          </div>
+        </div>
+        ::after
+      </section>
     </div>
-
-    <h1>Favorite Recipes</h1>
-    <h2>Breakfast</h2>
-    <h2>Lunch</h2>
-      <ul>
-        <li><a href="recipes/butter-chicken.html">Butter Chicken</a></li>
-      </ul>
-    <h2>Test</h2>
   </body>
-</html>
 
-<!--CSS goes here-->
-<style>
-  ul {
-  list-style-type: none;
-  }
-  
-  .verticalhorizontal {
-      display: table-cell;
-      height: auto;
-      text-align: center;
-      width: auto;
-      vertical-align: middle;
-  }
-</style>
+</html>
