@@ -1,5 +1,5 @@
 # The Odin Project
-[The Odin Project](https://www.theodinproject.com/about) is an amazing Open Source online curriculum for learning Full Stack Development, and the one I picked to start my journey through programming. Feel free to check the Project and it's [Github page](https://github.com/TheOdinProject/theodinproject). Thus, I decide to create this repo to showcase my projects and the results of my efforts going through their curriculum.
+[The Odin Project](https://www.theodinproject.com/about) is an amazing Open Source online curriculum for learning Full Stack Development, and the one I picked to start my journey through programming. Feel free to check the Project and it's [Github page](https://github.com/TheOdinProject/theodinproject). Thus, I decide to create this repo to showcase my projects, exercises, and the results of my efforts going through their curriculum.
 
 ## #1 Retro Recipes
 The first project going through the Odin Project courses. It's a simple Cooking Website with a few recipes coded almost entirely on HTML with a few CSS snippets, mostly provided by the [NES.css](https://nostalgic-css.github.io/NES.css/) framework/library. Check the live preview bellow!
