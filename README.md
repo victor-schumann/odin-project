@@ -8,11 +8,6 @@ The first project going through the Odin Project courses. It's a simple Cooking 
   <A HREF='https://victor-schumann.github.io/odin-project/' target='_blank'><img height='36' style='border:0px;height:26px;' src='https://img.shields.io/badge/Odin%20Project%20nº%201-RETRO RECIPES-red' border='0' alt='odin_project_#1'/></a>&nbsp;&nbsp;&nbsp;
 </p>
 
-## Tiny Projects
-A compilation of smaller projects, scripts, exercises or brainstorms that I went through to learn concepts, techniques or simply to implement an idea that didn't let me sleep.
-
-1. [Simple Calculator](www.example.com);
-
 # Contact & Info
 <p align="center">
   <A HREF='https://linkedin.com/in/victor-schumann' target='_blank'><img height='36' style='border:0px;height:26px;' src='https://img.shields.io/badge/Hire%20me-LINKEDIN.COM-blue' border='0' alt='Hire me on Linkedin'/></a>&nbsp;&nbsp;&nbsp;
