@@ -53,9 +53,7 @@
 .nes-container.is-dark::after {
   position: absolute;
   top: -7.2px;
-  right: -7.2px
-px
-;
+  right: -7.2px;
   bottom: -7.2px;
   left: -7.2px;
   z-index: -1;
@@ -72,4 +70,8 @@ header {
 
 ul {
   list-style-type: none;
+}
+
+.containerTwo {
+  margin: auto;
 }
