@@ -1,5 +1,5 @@
 # The Odin Project
-<p align="center"><img src='https://progress-bar.dev/58/?scale=100&width=300'/></p>
+<p align="center"><img src='https://progress-bar.dev/60?scale=100&width=300'/></p>
 
 
 
@@ -21,4 +21,4 @@
 </p>
   
 
-<p align="center"><a href="https://ko-fi.com/victor-schumann"> <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="auto" width="160" alt="victor-schumann" /></a></p>
+<p align="center"><a href="https://ko-fi.com/victorschumann"> <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="auto" width="160" alt="victor-schumann" /></a></p>
