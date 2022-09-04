@@ -7,7 +7,7 @@
 
 ## #1 Retro Recipes
 <p align="center"> 
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/gdRsCOd.png" alt="retro-recipes" height="auto" width="520"/></a>
+<a href="https://victor-schumann.github.io/odin-project/" target="blank"><img align="center" src="https://i.imgur.com/gdRsCOd.png" alt="retro-recipes" height="auto" width="520"/></a>
 </p>
 
 <p align="center"> 
