@@ -1,0 +1,84 @@
+.nav-brand .brand-logo {
+  margin-right: 1rem;
+}
+
+.nav-brand > a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.social-buttons p {
+  margin-bottom: 0;
+}
+
+.content {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content div {
+  width: 50vw;
+  margin: 30px;
+}
+  
+.verticalhorizontal {
+  height: auto;
+  text-align: center;
+  width: auto;
+  vertical-align: middle;
+}
+
+.nes-container {
+  font-size: 10px;
+}
+
+.nes-container.member-card {
+  display: flex;
+  padding: 0 1.5rem;
+  width: 470px;
+  margin-bottom: 2rem;
+}
+
+.nes-container.is-dark {
+  position: relative;
+  margin: 4px;
+  color: #fff;
+  background-color: #212529;
+  border-color: #fff;
+}
+
+.nes-container.is-dark::after {
+  position: absolute;
+  top: -7.2px;
+  right: -7.2px
+px
+;
+  bottom: -7.2px;
+  left: -7.2px;
+  z-index: -1;
+  content: "";
+  background-color: #212529;
+}
+
+header {
+  height: auto;
+  text-align: center;
+  width: auto;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+}
+
+br {
+  margin-bottom: 20px;
+}
+
+.is-centered {
+    margin-left: auto;
+    margin-right: auto;
+}

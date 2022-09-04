@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>👾 Retro Recipes</title>
+    <meta http-eqiv="content-type" content="text/html"
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="content">
+<!-- Rounded dialog -->
+      <section>
+        <br>
+        <button type="button" class="nes-btn is-normal" onclick="document.getElementById('dialog-rounded').showModal();" style="font-size: 120%;" >
+          <span>Retro Recipes<br><i class="snes-logo"></i></a><br>
+        </button>
+
+        <dialog class="nes-dialog is-rounded" id="dialog-rounded">
+          <form method="dialog">
+            <p class="title">This repo was built with the help and guidance of the following projects. </p>
+
+<!--Actual buttons go here-->
+            <menu class="dialog-menu" style="text-align: center;">
+              <p><a class="nes-btn is-primary" href="https://nostalgic-css.github.io/NES.css/">NES.css</a></p>
+              <p><a class="nes-btn is-primary" href="https://www.theodinproject.com/">Odin Project</a></p>
+              <button class="nes-btn is-error">Go back</button>
+            </menu>
+          </form>
+        </dialog>
+      </section>
+
+<!--lil pizza img-->
+      <div class="verticalhorizontal">        
+          <img id="underline" src="https://imgs.search.brave.com/xjU3fpHC6jyNPcybUbF4wMBHf2xgn7CD5f_WrB0FxvQ/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BpeGVs/YXJ0bWFrZXIuY29t/L2FydC8wYTA3NmIz/YjExMWY2MTgucG5n"
+          width="25%"
+          height="auto"
+          border-radius: 50%;
+          border-style: solid;
+          border-color: black;">
+      </div>
+
+<!--Hello, World-->
+      <div class="nes-container with-title is-centered">
+        <h2 class="title">Hello, world!</h2>
+        <p>This is a tiny index of my favorite recipes!</p>
+      </div>
+
+<!--Favorites-->
+      <div class="nes-container with-title is-centered">
+        <h2 class="title">Favorites</h2>
+        <a class="nes-btn" href="favorites/butter-chicken.html">Butter Chicken</a>
+        <p></p>
+
+        <a class="nes-btn" href="favorites/pasta.html">Homemade Spaghetti</a>
+        <p></p>
+
+<!-- Dark and Rounded dialog -->
+        <section>
+          <button type="button" class="nes-btn" onclick="document.getElementById('dialog-dark-rounded').showModal();">
+            World Domination
+          </button>
+          
+          <dialog class="nes-dialog is-dark is-rounded" id="dialog-dark-rounded">
+            <form method="dialog">
+              <p class="title">Error!</p>
+              <p>It seems like you tried to learn how to dominate the world. Unfortunately, I can only share this information if you hire me as a <strong>full time developer</strong>. Luckly for you, I'm open for it!</p>
+              <menu class="dialog-menu">
+                <button class="nes-btn">Go back</button>
+                <a class="nes-btn" href="favorites/plan.html">Hire me!</a>
+              </menu>
+            </form>
+          </dialog>
+        </section>        
+      </div>    
+      
+<!--Author-->
+      <section class="nes-container member-card">
+        <div class="avatar">
+          <img class="nes-avatar is-rounded is-large" alt="Gravatar image example" src="https://secure.gravatar.com/avatar/9d7296a59054d73981f8684ef636537b" style="image-rendering: pixelated; width: auto; height: 100%;
+          border-radius: 50%;
+          border-style: solid;
+          border-color: black;">
+
+          
+        </div>
+      
+        <div class="profile">
+          <a class="nes-btn" href="https://victorschumann.com">Victor Schumann</a>
+          
+          <div>
+            <a href="https://github.com/victor-schumann" target="_blanc" rel=""noopener" aria-label="github">
+              <i class="nes-icon github"></i></a>
+              
+            <a href="mailto:schumann@disroot.org" target="_blanc" rel="noopener" aria-label="e-mail">
+                <i class="nes-icon gmail"></i></a>
+            
+            <a href="https://www.linkedin.com/in/victor-schumann" target="_blanc" rel="noopener" aria-label="github">
+              <i class="nes-icon linkedin"></i></a>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+</html>
