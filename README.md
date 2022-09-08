@@ -14,7 +14,7 @@
 <a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://img.shields.io/badge/Odin_Project_I-retro recipes-000000?style=for-the-badge&logo=Forestry&logoColor=white" alt="victor-schumann" height="30" width="auto"/></a>
 </p>
 
-<p style='text-align: justify;'>The first project going through the Odin Project courses. It's a simple Cooking Website with a few recipes coded almost entirely in HTML with a few CSS snippets, mostly provided by the <a href='https://nostalgic-css.github.io/NES.css/'>NESS.css</a> framework/library. Check the live preview bellow!</p>
+<p style='text-align: justify;'>The first project going through the Odin Project courses. It's a simple Cooking Website with a few recipes coded almost entirely in HTML with a few CSS snippets, mostly provided by the <a href='https://nostalgic-css.github.io/NES.css/'>NESS.css</a> framework/library. Check the live preview on teh above link.</p>
 
 # Contact
 <h1 align="center">Hello, World 👋 <br> I'm Victor Schumann</h1>
