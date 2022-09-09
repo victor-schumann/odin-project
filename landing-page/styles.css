@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+.menu-container {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px 0;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 1300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+  
+.link-two, .link-three {
+    margin-left: 20px;
+}
+
+.link-one {
+    margin-left: auto;
+}
+  
