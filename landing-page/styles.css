@@ -5,23 +5,29 @@
 }   
 
 .menu-container {
+    display:         flex;
+    justify-content: flex-end;
+    align-items:     center;
+
     color: #f9faf8;
     background-color: #1f2937;
-    padding: 20=0px 0;
-    height: 100px;
-    display: flex;
-    justify-content: center;
+    width: auto;
+    height: 48px;
+    border: 1px red solid; /**for debugging**/
+    padding: 5px; /** this...**/
 }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    /*end of flex*/
-    width: 1300px;
-    margin: 10px;
+.logo, .spacer, .links {
+    border: 1px red solid;
+    gap: 10px
 }
 
 .links {
     display: flex;
-    justify-content: space-between;
 }
+
+.spacer {
+    /** uncomment before saving -> visibility: hidden;**/
+    flex-grow: 1;
+}
+  
