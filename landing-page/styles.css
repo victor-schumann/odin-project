@@ -2,23 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px red solid; /**for debugging**/
 }   
 
 .menu-container {
     display:         flex;
-    justify-content: flex-end;
     align-items:     center;
-
-    color: #f9faf8;
     background-color: #1f2937;
+    color: #f9faf8;
     width: auto;
     height: 48px;
-    border: 1px red solid; /**for debugging**/
-    padding: 5px; /** this...**/
+    padding: 15px;
 }
 
 .logo, .spacer, .links {
-    border: 1px red solid;
     gap: 10px
 }
 
@@ -26,8 +23,50 @@
     display: flex;
 }
 
-.spacer {
-    /** uncomment before saving -> visibility: hidden;**/
+.spacer-1 {
+    visibility: hidden;
     flex-grow: 1;
 }
-  
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 360px;
+    padding: 15px; /** this...**/
+    gap: 10px;
+}
+
+.placeholder {
+    background-color: #6c6c6c;
+    text-align:center;
+    font-size: 16px;
+    line-height: 230px;
+    width: 1200px;
+    height: 230px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.subtext, .links {
+    font-size: 24px;
+    color: #E5E7EB;
+    text-align: justify;
+    padding: 10px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    height: 32px;
+    width: 106px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
