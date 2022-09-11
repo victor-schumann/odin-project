@@ -2,30 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px red solid; /**for debugging**/
+
 }   
 
 .menu-container {
-    display:         flex;
-    align-items:     center;
+    display: flex;
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     width: auto;
     height: 48px;
-    padding: 15px;
 }
 
-.logo, .spacer, .links {
-    gap: 10px
+.logo {
+    margin-left: 75px;
 }
 
-.links {
+.spacer, .links {
+    gap: 10px;
     display: flex;
 }
 
 .spacer-1 {
     visibility: hidden;
     flex-grow: 1;
+}
+
+.l-three {
+    margin-right: 75px;
 }
 
 .banner {
@@ -35,8 +39,8 @@
     background-color: #1f2937;
     color: #f9faf8;
     height: 360px;
-    padding: 15px; /** this...**/
-    gap: 10px;
+    padding: 75px; /** this is like margin, except it mapplies to elements**/
+    gap: 200px;
 }
 
 .placeholder {
@@ -46,6 +50,7 @@
     line-height: 230px;
     width: 1200px;
     height: 230px;
+
 }
 
 .title {
@@ -70,3 +75,56 @@
     font-weight: bolder;
 }
 
+.image-grid {
+    height: 360px;
+    margin: 0 125px 0 125px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:bolder;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.album {
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 50px;    
+}
+
+.album div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album img {
+    height: 175px;
+    border: 5px #3882F6 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote-section {
+    height: 360px;
+    padding: 75px;
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+    align-self: flex-end;
+    margin-top: 15px;
+}
