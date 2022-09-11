@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px red solid; /**for debugging**/
+
 
 }   
-
+/**Header & Top pannel**/
 .menu-container {
     display: flex;
     align-items: center;
@@ -14,12 +16,13 @@
     height: 48px;
 }
 
-.logo {
+.logo img {
     margin-left: 75px;
+    height: 30px;
 }
 
-.spacer, .links {
-    gap: 10px;
+.links {
+    gap: 15px;
     display: flex;
 }
 
@@ -30,6 +33,11 @@
 
 .l-three {
     margin-right: 75px;
+}
+
+.l-three, .l-two, .l-one {
+    font-size: 16px;
+    /**I'm not sure why, but I can't set this on .links and neither on .menu-container.**/
 }
 
 .banner {
@@ -76,8 +84,8 @@
 }
 
 .image-grid {
-    height: 360px;
-    margin: 0 125px 0 125px;
+    height: 300px;
+    margin: 0 100px 60px 100px;
     color: #1F2937;
     font-size: 36px;
     font-weight:bolder;
@@ -94,17 +102,15 @@
     gap: 25px;
     font-size: 14px;
     font-weight: normal;
-    margin-top: 50px;    
+    
 }
 
-.album div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.image-grid-title {
+    margin-top: 30px;
 }
 
 .album img {
-    height: 175px;
+    height: 125px;
     border: 5px #3882F6 solid;
     border-radius: 10px;
     margin-bottom: 10px;
