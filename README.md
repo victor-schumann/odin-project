@@ -6,10 +6,11 @@
 <p align="justify"><a href='https://www.theodinproject.com/about'>The Odin Project</a> is an Open Source online curriculum for learning Full Stack Development, and the one I picked to start my journey through programming. I decided to create this repo to track my progress and to showcase my projects that came from their curriculum.</p>
 
 ## [#1](https://github.com/victor-schumann/retro-recipes) Retro Recipes
+
 <p align="center"> 
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/lOaYWLg.png" alt="Git project number one printscreen #1" height="150" width="auto"/></a>
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/qYzdXOc.png" alt="Git project number one printscreen #2" height="150" width="auto"/></a>
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/arHmk7J.png" alt="Git project number one printscreen #3" height="150" width="auto"/></a>
+<img align="center" src="https://i.imgur.com/lOaYWLg.png" alt="Git project number one printscreen #1" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/qYzdXOc.png" alt="Git project number one printscreen #2" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/arHmk7J.png" alt="Git project number one printscreen #3" height="150" width="auto"/>
 </p>
 
 <p align="center"> 
@@ -25,12 +26,12 @@
 
 ## [#2](https://github.com/victor-schumann/landing-page) Landing Page
 <p align="center"> 
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/rQPhjT2.png" alt="Git project number one printscreen #1" height="150" width="auto"/></a>
-<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://i.imgur.com/8LaiNq7.png" alt="Git project number two printscreen #2" height="150" width="auto"/></a>
+<img align="center" src="https://i.imgur.com/rQPhjT2.png" alt="Git project number one printscreen #1" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/8LaiNq7.png" alt="Git project number two printscreen #2" height="150" width="auto"/>
 </p>
 
 <p align="center"> 
-<a href="https://victor-schumann.github.io/odin-project/landing-page" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-808080?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
+<a href="https://victor-schumann.github.io/odin-project/retro-recipes" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-808080?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
 </p>
 
 <p style='text-align: justify;'>Sep 2022: The CSS project "Landing Page", with focus towards flexbox tools. Here is what I've learned:</p>
