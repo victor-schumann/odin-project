@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'monospace';
+  font-size: 20px;
+  color: #ccc;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  padding: 1vh;
+  background-color: #000000;
+}
+
+.item-s {
+  width: 5vh;
+  background: none;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  transition: transform 1s, filter .5s ease-out;
+}
+
+.item-s:hover{
+  transform: scale(1.5);
+}
+
+.main {
+  display: flex;
+  height:76vh;
+  line-height: 76vh;
+  text-align: center;
+  background-color: #1f2937;
+}
+
+.footer{
+  height: 12vh;
+  background-color: black;
+  font-size: 15px;
+  text-align: center;
+  line-height: 12vh;
+}
+
+/* boilerplate ends here */
+
+.blinking-cursor {
+  font-weight:lighter;
+  font-size: 25px;
+  color: #ccc;
+  -webkit-animation: 1.2s blink step-end infinite;
+  animation: 1.2s blink step-end infinite;
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
