@@ -1,5 +1,5 @@
 # The Odin Project
-<p align="center"><img src='https://progress-bar.dev/67?scale=100&width=300'/></p>
+<p align="center"><img src='https://progress-bar.dev/69?scale=100&width=300'/></p>
 
 
 
