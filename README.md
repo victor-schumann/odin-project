@@ -1,7 +1,11 @@
 # The Odin Project
-<p align="center"><img src='https://progress-bar.dev/69?scale=100&width=300'/></p>
 
+<p align ="center">
+<img src='https://progress-bar.dev/70/?scale=100&&title=Progress&width=300&color=5C5C5D'/>
+</p>
 
+<p align ="center">
+<a href="https://jessemillar.com/r/man-hours"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fvictor-schumann%2Fodin-project.git" alt="Git time"></a></p>
 
 <p align="justify"><a href='https://www.theodinproject.com/about'>The Odin Project</a> is an Open Source online curriculum for learning Full Stack Development, and the one I picked to start my journey through programming. I decided to create this repo to track my progress and to showcase my projects that came from their curriculum.</p>
 
@@ -14,7 +18,7 @@
 </p>
 
 <p align="center"> 
-<a href="https://victor-schumann.github.io/retro-recipes" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-808080?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
+<a href="https://victor-schumann.github.io/retro-recipes" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-5C5C5D?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
 </p>
 
 <p style='text-align: justify;'>May 2022: A simple Cooking Website with a few recipes coded almost entirely in HTML + CSS snippets, provided by the <a href='https://nostalgic-css.github.io/NES.css/'>NESS.css</a> framework/library. Here's what I've learned:</p>
@@ -23,7 +27,6 @@
 - Boilerplate rules;
 - Images & links;
 - Inline formatting.
-
 ## [#2](https://github.com/victor-schumann/landing-page) Landing Page
 <p align="center"> 
 <img align="center" src="https://i.imgur.com/rQPhjT2.png" alt="Git project number one printscreen #1" height="150" width="auto"/>
@@ -31,7 +34,7 @@
 </p>
 
 <p align="center"> 
-<a href="https://victor-schumann.github.io/landing-page" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-808080?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
+<a href="https://victor-schumann.github.io/landing-page" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-5C5C5D?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
 </p>
 
 <p style='text-align: justify;'>Sep 2022: The CSS project "Landing Page", with focus towards flexbox tools. Here is what I've learned:</p>
