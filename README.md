@@ -1,11 +1,16 @@
-# The Odin Project
+# Odin Project - Course progress tracker
 
 <p align ="center">
-<img src='https://progress-bar.dev/70/?scale=100&&title=Progress&width=300&color=5C5C5D'/>
+  <a href="https://jessemillar.com/r/man-hours">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fvictor-schumann%2Fodin-project.git" alt="Git time">
+  </a>
+  <a>
+    <img src='https://progress-bar.dev/70/?scale=100&&title=&width=300&color=5C5C5D'/>
+  </a>
 </p>
 
 <p align ="center">
-<a href="https://jessemillar.com/r/man-hours"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fvictor-schumann%2Fodin-project.git" alt="Git time"></a></p>
+
 
 <p align="justify"><a href='https://www.theodinproject.com/about'>The Odin Project</a> is an Open Source online curriculum for learning Full Stack Development, and the one I picked to start my journey through programming. I decided to create this repo to track my progress and to showcase my projects that came from their curriculum.</p>
 
