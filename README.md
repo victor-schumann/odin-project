@@ -34,7 +34,7 @@
 - Inline formatting.
 ## [#2](https://github.com/victor-schumann/landing-page) Landing Page
 <p align="center"> 
-<img align="center" src="https://i.imgur.com/rQPhjT2.png" alt="Git project number one printscreen #1" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/rQPhjT2.png" alt="Git project number two printscreen #1" height="150" width="auto"/>
 <img align="center" src="https://i.imgur.com/8LaiNq7.png" alt="Git project number two printscreen #2" height="150" width="auto"/>
 </p>
 
@@ -47,6 +47,21 @@
 - Boxmodel;
 - Block & inline;
 - Flexbox tools.
+
+## [#3](https://github.com/victor-schumann/rock-paper-scissors) Rock Paper Scissors
+<p align="center"> 
+<img align="center" src="[img]https://i.imgur.com/P9M2h1h.png" alt="Git project number three printscreen #1" height="150" width="auto"/>
+<img align="center" src="hhttps://i.imgur.com/J5GufSO.png" alt="Git project number three printscreen #2" height="150" width="auto"/>
+</p>
+
+<p align="center"> 
+<a href="https://victor-schumann.github.io/rock-paper-scissors" target="blank"><img align="center" src="https://img.shields.io/badge/-live_preview-5C5C5D?style=for-the-badge&logo=&logoColor=white" alt="Git project link" height="30" width="auto"/></a>
+</p>
+
+<p style='text-align: justify;'>Sep 2022: The CSS project "Rock, Paper, Scissors", with focus towards CSS & Js. Here is what I've learned:</p>
+
+- Flexbox;
+- Js basics.
 
 # Contact
 <h1 align="center">Hello, World 👋 <br> I'm Victor Schumann</h1>
