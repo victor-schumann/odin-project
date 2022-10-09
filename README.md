@@ -50,8 +50,8 @@
 
 ## [#3](https://github.com/victor-schumann/rock-paper-scissors) Rock Paper Scissors
 <p align="center"> 
-<img align="center" src="[img]https://i.imgur.com/P9M2h1h.png" alt="Git project number three printscreen #1" height="150" width="auto"/>
-<img align="center" src="hhttps://i.imgur.com/J5GufSO.png" alt="Git project number three printscreen #2" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/lWRQA9B.png" alt="Git project number three printscreen #1" height="150" width="auto"/>
+<img align="center" src="https://i.imgur.com/TllUT3j.png" alt="Git project number three printscreen #2" height="150" width="auto"/>
 </p>
 
 <p align="center"> 
