@@ -1,11 +1,8 @@
 # Odin Project - Course progress tracker
 
 <p align ="center">
-  <a href="https://jessemillar.com/r/man-hours">
-    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fmh.jessemillar.com%2Fhours%3Frepo%3Dhttps%3A%2F%2Fgithub.com%2Fvictor-schumann%2Fodin-project.git" alt="Git time">
-  </a>
   <a>
-    <img src='https://progress-bar.dev/87/?scale=100&&title=&width=300&color=5C5C5D'/>
+    <img src='https://progress-bar.dev/100/?scale=100&&title=&width=300&color=5C5C5D'/>
   </a>
 </p>
 
